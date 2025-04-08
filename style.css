@@ -1,0 +1,62 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 30px;
+    margin: 0;
+  }
+  
+  /* Heading style */
+  h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  /* Table styling */
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  
+  /* Alternate row background */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Image styling */
+  img {
+    display: block;
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    margin: auto;
+    border: 2px solid #ddd;
+  }
+  
+  /* Link styling */
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* List inside table */
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
